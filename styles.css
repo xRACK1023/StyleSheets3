@@ -1,0 +1,38 @@
+body {
+    background-image: url(images/RockAndRoll.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+#MainHeading{
+    font-family: Arial;
+    font-size: 400%;
+    color: red;
+    text-align: center;
+}
+
+#SecondHeading{
+    font-family: Arial;
+    font-size: 200%;
+    color: green;
+}
+
+img{
+    float:right
+}
+
+#blurb {
+    border: 5px solid black;
+    background-color: dodgerblue;
+    font-size: 150%;
+    width: 70%;
+    height: 200px;
+    padding: 10px;
+}
+
+#discography {
+   border: 3px solid black;
+   background-color: rgb(172,164,228);
+   width: 65%;
+}
