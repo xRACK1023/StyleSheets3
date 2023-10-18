@@ -1,8 +1,10 @@
+
 body {
     background-image: url(images/RockAndRoll.jpg);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-attachment: fixed;
+    background-color: beige; 
 }
 
 #MainHeading{
@@ -19,20 +21,22 @@ body {
 }
 
 img{
-    float:right
+    float: right;
+    padding-right: 20px;
 }
 
 #blurb {
-    border: 5px solid black;
+    border: medium solid black;
     background-color: dodgerblue;
     font-size: 150%;
     width: 70%;
     height: 200px;
     padding: 10px;
+    overflow-y: scroll;
 }
 
 #discography {
-   border: 3px solid black;
+   border: thin solid black;
    background-color: rgb(172,164,228);
    width: 65%;
 }
